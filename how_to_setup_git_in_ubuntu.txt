@@ -1,0 +1,23 @@
+sudo apt-get install git			- to install git in ubuntu
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL ADDRESS"
+
+go to git profile online and  create a repository. ( eg gittest )
+make a dirotory in our Ubuntu machine. (mkdir gittest)
+
+echo "# gittest" >> README.md				- To create a readme file inside file which we created in our host machine
+git init						- initialize git in my directory- empty git repository 
+git add README.md					- add your ( readme) file to git
+git commit -m "first commit"				- after adding the file you have to commit the file for save in git | in double quote we have to comment anything
+git remote add origin https://github.com/pp/gittest.git	- adding remote region. it gives to github directory 
+git push -u origin master				- push the changes 
+
+
+
+then give the user name and password
+
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/pp/gittest.git
+git push -u origin master
